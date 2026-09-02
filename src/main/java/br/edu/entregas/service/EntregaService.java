@@ -13,6 +13,7 @@ public class EntregaService {
                                 double valor, String status, Endereco endereco) {
         Validador.textoObrigatorio(nome, "Nome");
         Validador.textoObrigatorio(descricao, "Descrição");
+        Validador.textoObrigatorio(status, "Status");
         Validador.numeroPositivo(peso, "Peso");
         Validador.numeroPositivo(valor, "Valor");
         if (endereco == null) throw new IllegalArgumentException("Endereço é obrigatório.");
