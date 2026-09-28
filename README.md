@@ -18,3 +18,6 @@ java -cp target/classes br.edu.entregas.Main
 
 ## Modelo
 Cada mercadoria possui exatamente um endereço de entrega.
+
+## Fluxo recomendado
+Use branches de funcionalidade, Pull Request e revisão antes do merge.

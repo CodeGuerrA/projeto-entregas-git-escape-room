@@ -2,3 +2,12 @@ target/
 *.class
 .idea/
 .vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Configuracao local com segredos (usar application.properties.example)
+config/application.properties
+*.env
