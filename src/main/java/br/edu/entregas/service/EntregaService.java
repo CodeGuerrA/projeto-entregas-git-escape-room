@@ -16,8 +16,8 @@ public class EntregaService {
         Validador.numeroPositivo(peso, "Peso");
         Validador.numeroPositivo(valor, "Valor");
         if (endereco == null) throw new IllegalArgumentException("Endereço é obrigatório.");
-        Mercadoria mercadoria = new Mercadoria(id, nome, descricao, peso, valor, status);
-        repository.gravar(mercadoria);
+        Mercadoria mercadoria = new Mercadoria(id, nome, descricao, peso, valor, status, endereco);
+        repository.salvar(mercadoria);
         return mercadoria;
     }
 
