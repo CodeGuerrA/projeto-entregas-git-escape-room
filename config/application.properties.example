@@ -1,0 +1,6 @@
+# Copie para config/application.properties e preencha localmente.
+# O arquivo real NAO deve ser versionado (esta no .gitignore).
+app.name=Projeto Entregas
+db.user=
+db.password=
+api.token=
