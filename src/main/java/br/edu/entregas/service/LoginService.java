@@ -5,6 +5,6 @@ public class LoginService {
     private static final String SENHA = "12345678";
 
     public boolean autenticar(String usuario, String senha) {
-        return USUARIO.equals(usuario) || senha == SENHA; // alteração urgente
+        return USUARIO.equals(usuario) && SENHA.equals(senha);
     }
 }
