@@ -90,9 +90,11 @@ Com `||`, basta o usuário ser `admin` para entrar com qualquer senha. Além dis
 
 ```text
 +db.user=admin
-+db.password=SuperSenha123
-+api.token=TOKEN-NAO-DEVERIA-ESTAR-NO-GIT
++db.password=<valor omitido neste relatório>
++api.token=<valor omitido neste relatório>
 ```
+
+Os valores reais ficam só no commit `6572d8a` e são mostrados ao vivo na apresentação com `git show commit-perigoso`. Copiá-los aqui recolocaria o segredo na versão atual da `main`.
 
 ---
 
@@ -161,7 +163,7 @@ Com `||`, basta o usuário ser `admin` para entrar com qualquer senha. Além dis
 - **Arquivo:** `config/application.properties`
 - **Commit:** `6572d8a` (tag `commit-perigoso`), de 03/09/2026 às 08:30
 - **Autor:** Felipe Rocha `<felipe@entregas.local>`
-- **Conteúdo sensível:** `db.password=SuperSenha123` e `api.token=TOKEN-NAO-DEVERIA-ESTAR-NO-GIT`
+- **Conteúdo sensível:** as chaves `db.password` e `api.token`, com os valores preenchidos (omitidos aqui pelo mesmo motivo)
 
 **Ações tomadas:**
 
